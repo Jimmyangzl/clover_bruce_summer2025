@@ -35,10 +35,10 @@ python3 -m Library.STATE_ESTIMATION.BRUCE_ESTIMATION_KF_AOT
 
 #### 4. Loading BRUCE model in Gazebo
 ```bash
-cd /Simulation/worlds
+cd Simulation/worlds
 gazebo --verbose bruce.world
 ```
-If everything goes well, BRUCE should be fixed in the air in its nominal posture.
+If everything goes well, BRUCE should be fixed in the air in its zero posture.
 
 _ATTENTION:_
 BRUCE Gym is built on Ubuntu 22.04.1 x86_64. Any lower version might need an upgrade of the GNU C libraries, e.g., GLIBC and GLIBCXX. Please refer to the error messages in this regard.
@@ -60,7 +60,7 @@ Please go to ``Play/Walking/walking_macros.py`` and ``Play/Walking/top_level.py`
     ```
 2. Run Gazebo Simulator in terminal 0 (the same as the last step in "Instructions")
    ```bash
-    cd /Simulation/worlds
+    cd Simulation/worlds
     gazebo --verbose bruce.world
     ```
 3. In terminal 1, run shared memory modules.
