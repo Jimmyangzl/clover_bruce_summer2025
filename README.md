@@ -47,7 +47,7 @@ BRUCE Gym is built on Ubuntu 22.04.1 x86_64. Any lower version might need an upg
 #### Assignment 1 - Square Drawing
 Please go to ``Play/Walking/walking_macros.py`` to finish the code.
 For testing, start all six terminals following "Full Operating" below. In the last terminal, press "3" to test planning in joint space or, press "4" to test planning in cartesian space.
-#### Assignment 1 - Arms Swinging
+#### Assignment 2 - Arms Swinging while Walking
 Please go to ``Play/Walking/walking_macros.py`` and ``Play/Walking/top_level.py`` to finish the code. For testing, start all six terminals following "Full Operating" below. Press "SPACE" and then quickly press "1" to let BRUCE walk forward. Press "SPACE" and then quickly press "0" to let BRUCE stop moving.
 
 
