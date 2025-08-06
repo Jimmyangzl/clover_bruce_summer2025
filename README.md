@@ -1,3 +1,10 @@
+# IMPORTANT NOTICE!!!
+There is a variable that should be changed in top_level.py line 311.
+The ``square_trajectory_joint_space`` in ``if self.square_in_cart_count < square_trajectory_joint_space[0].size:`` should be changed to ``square_trajectory_cart_space``.
+Use the green line in the picture below.
+<img width="1891" height="341" alt="image" src="https://github.com/user-attachments/assets/d3d0d402-468e-4707-8d91-10749fb46cbb" />
+
+
 # clover_bruce_summer2025
 
 BRUCE Simulation assignments for clover summer course 2025.
