@@ -308,7 +308,7 @@ class UserCommand(object):
             plt.show()
     
     def square_in_cart(self):
-        if self.square_in_cart_count < square_trajectory_joint_space[0].size:
+        if self.square_in_cart_count < square_trajectory_cart_space[0].size:
             for idx, joint in enumerate(ARM_JOINT_LIST):
                 Bruce.joint[joint]['q_goal'] = square_trajectory_cart_space[idx][self.square_in_cart_count]
             Bruce.set_command_arm_positions()
